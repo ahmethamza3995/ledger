@@ -1,0 +1,12 @@
+:root { --green:#e9f7ef; --red:#fdecea; }
+body { font-family: system-ui, Arial; background:#f7f7f9; margin:0; }
+.container { max-width:1200px; margin:24px auto; padding:0 16px; }
+h1 { margin: 12px 0 18px; }
+.filters { display:flex; flex-wrap:wrap; gap:10px; align-items:end; margin-bottom:14px; }
+.filters > div { display:flex; flex-direction:column; }
+.filters .grow { flex:1 1 auto; min-width:200px; }
+.filters input, .filters select { padding:8px; border:1px solid #ddd; border-radius:8px; }
+.filters button { padding:10px 14px; border:0; border-radius:8px; background:#2d6cdf; color:#fff; cursor:pointer; }
+tr.income { background: var(--green); }
+tr.expense { background: var(--red); }
+.thumbnail { height:40px; border-radius:6px; vertical-align:middle; }
